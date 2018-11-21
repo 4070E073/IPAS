@@ -1,5 +1,8 @@
+重要
 http://newsletter.ascc.sinica.edu.tw/news/read_news.php?nid=1917
+新聞
 https://www.ithome.com.tw/news/118411
+次要
 https://leoyeh.me/2017/11/24/%E8%B3%87%E5%AE%89%E7%AE%A1%E7%90%86-OWASP-Top-10-1/
 
 2017
@@ -14,7 +17,8 @@ A8-不安全的反序列化漏洞 (Insecure Deserialization)
 A9-使用已有漏洞的元件 (Using Components with Known Vulnerabilities)
 A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
 
-
+1.Injection（注入攻擊）
+  
 
 
 
