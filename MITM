@@ -7,6 +7,13 @@
 例如，SSL協定可以驗證參與通訊的一方或雙方使用的憑證是否是由權威的受信任的數位憑證認證機構頒發，並且能執行雙向身分認證。
 
 
+通用漏洞披露（英語：CVE, Common Vulnerabilities and Exposures）又稱常見弱點與漏洞
+，是一個與資訊安全有關的資料庫，收集各種資安弱點及漏洞並給予編號以便於公眾查閱。
+EX:windows 10 cve
+
+
+https://www.freebuf.com/articles/web/120747.html
+https://blog.csdn.net/qq_32400847/article/details/53697849
 https://hk.saowen.com/a/993e4effc1ee1997813789f448fd0288c4d0ed0493935b0a424e06b0957a2039
 https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/content/58.html
 https://www.google.com.tw/search?q=burp+suite&oq=burp+&aqs=chrome.0.69i59j69i57j0l4.3528j1j8&sourceid=chrome&ie=UTF-8
