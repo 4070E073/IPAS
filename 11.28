@@ -18,3 +18,7 @@ Snort可以三個模式進行運作：
 偵測模式（Sniffer Mode）：此模式下，Snort將在現有的網域內擷取封包，並顯示在螢幕上。
 封包紀錄模式（packet logger mode）：此模式下，Snort將已擷取的封包存入儲存媒體中（如硬碟）。
 上線模式（inline mode）：此模式下，Snort可對擷取到的封包做分析的動作，並根據一定的規則來判斷是否有網路攻擊行為的出現。
+
+
+
+https://github.com/MyDearGreatTeacher/IPAS/blob/master/technology/4_1_CloudSecurity_%E9%9B%B2%E7%AB%AF%E5%AE%89%E5%85%A8.md
