@@ -1,0 +1,20 @@
+ACL
+NAT
+Network+證照
+PAT
+NPAT
+DMZ網段
+
+命令與控制（C&C, command and control)
+殭屍電腦（英語：Zombie computer）
+
+APT
+BEC
+Tor路由
+
+
+Snort可以三個模式進行運作：
+
+偵測模式（Sniffer Mode）：此模式下，Snort將在現有的網域內擷取封包，並顯示在螢幕上。
+封包紀錄模式（packet logger mode）：此模式下，Snort將已擷取的封包存入儲存媒體中（如硬碟）。
+上線模式（inline mode）：此模式下，Snort可對擷取到的封包做分析的動作，並根據一定的規則來判斷是否有網路攻擊行為的出現。
