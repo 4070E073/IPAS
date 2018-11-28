@@ -4,6 +4,11 @@ Network+證照
 PAT
 NPAT
 DMZ網段
+緩衝區溢位（buffer overflow）
+第二層隧道協定（英語：Layer Two Tunneling Protocol，縮寫為L2TP)
+網際網路安全協定（英語：Internet Protocol Security，縮寫為IPsec）
+傳輸層安全性協定（英語：Transport Layer Security，縮寫作 TLS）
+虛擬私人網路（英語：Virtual Private Network，縮寫為VPN）
 
 命令與控制（C&C, command and control)
 殭屍電腦（英語：Zombie computer）
@@ -20,5 +25,5 @@ Snort可以三個模式進行運作：
 上線模式（inline mode）：此模式下，Snort可對擷取到的封包做分析的動作，並根據一定的規則來判斷是否有網路攻擊行為的出現。
 
 
-
+https://baike.baidu.com/item/OWASP/6028410
 https://github.com/MyDearGreatTeacher/IPAS/blob/master/technology/4_1_CloudSecurity_%E9%9B%B2%E7%AB%AF%E5%AE%89%E5%85%A8.md
