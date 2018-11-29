@@ -23,7 +23,9 @@ APT
 BEC
 Tor路由
 誘捕系統
-
+Honeypot 蜜罐
+Honeywall
+Honeynet
 
 
 Snort可以三個模式進行運作：
@@ -42,3 +44,7 @@ https://zh.wikipedia.org/wiki/%E7%AE%80%E5%8D%95%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%9
 http://terms.naer.edu.tw/detail/1656042/
 https://zh.wikipedia.org/wiki/IEEE_802.1X
 https://baike.baidu.com/item/CNAME
+https://en.wikipedia.org/wiki/Fake_AP
+
+
+
