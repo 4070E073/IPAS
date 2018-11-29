@@ -28,6 +28,21 @@ Honeywall
 Honeynet
 
 
+死結(deadlock)的四個條件是：
+
+禁止搶占 no preemption - 系統資源不能被強制從一個行程中登出
+
+持有和等待 hold and wait - 一個行程可以在等待時持有系統資源
+
+互斥 mutual exclusion - 只有一個行程能持有一個資源
+
+迴圈等待 circular waiting - 一系列行程互相持有其他行程所需要的資源
+
+死結只有在這四個條件同時滿足時出現。預防死結就是至少破壞這四個條件其中一項，即破壞「禁止搶占」、破壞「持有等待」、破壞「資源互斥」和破壞「迴圈等待」。
+
+
+
+
 Snort可以三個模式進行運作：
 
 偵測模式（Sniffer Mode）：此模式下，Snort將在現有的網域內擷取封包，並顯示在螢幕上。
@@ -45,6 +60,6 @@ http://terms.naer.edu.tw/detail/1656042/
 https://zh.wikipedia.org/wiki/IEEE_802.1X
 https://baike.baidu.com/item/CNAME
 https://en.wikipedia.org/wiki/Fake_AP
-
+https://zh.wikipedia.org/wiki/%E6%AD%BB%E9%94%81
 
 
