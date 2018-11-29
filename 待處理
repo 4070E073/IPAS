@@ -26,7 +26,7 @@ Tor路由
 Honeypot 蜜罐
 Honeywall
 Honeynet
-
+patch management
 
 
 死結(deadlock)的四個條件是：
@@ -49,6 +49,9 @@ Snort可以三個模式進行運作：
 上線模式（inline mode）：此模式下，Snort可對擷取到的封包做分析的動作，並根據一定的規則來判斷是否有網路攻擊行為的出現。
 
 
+
+
+https://en.wikipedia.org/wiki/Recovery_time_objective
 https://baike.baidu.com/item/pwn2own
 https://baike.baidu.com/item/OWASP/6028410
 https://www.shodan.io/
@@ -63,3 +66,8 @@ https://en.wikipedia.org/wiki/Fake_AP
 https://zh.wikipedia.org/wiki/%E6%AD%BB%E9%94%81
 https://zh.wikipedia.org/wiki/Active_Directory
 https://zh.wikipedia.org/wiki/%E8%BD%BB%E5%9E%8B%E7%9B%AE%E5%BD%95%E8%AE%BF%E9%97%AE%E5%8D%8F%E8%AE%AE
+https://zh.wikipedia.org/wiki/%E4%BF%AE%E8%A3%9C%E7%A8%8B%E5%BC%8F
+https://beefproject.com/
+
+
+
