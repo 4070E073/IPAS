@@ -1,12 +1,14 @@
 https://github.com/MyDearGreatTeacher/IPAS/blob/master/technology/4_1_CloudSecurity_%E9%9B%B2%E7%AB%AF%E5%AE%89%E5%85%A8.md
 
-
-
-ACL
-NAT
 Network+證照
-PAT
-NPAT
+
+patch management
+SQL（Structured Query Language）
+ACL(Access Control List)
+NAT（Network Address Translation）
+PAT(Port Address Translation)
+NPAT(Network Port Access Transportation)
+
 DMZ網段
 緩衝區溢位（buffer overflow）
 第二層隧道協定（英語：Layer Two Tunneling Protocol，縮寫為L2TP)
@@ -19,14 +21,14 @@ BeEF (Browser Exploitation Framework)
 殭屍電腦（英語：Zombie computer）
 
 物聯網的安全威脅:印表機 Ipcamera 
-APT
-BEC
+APT（Advanced Persistent Threats）
+BEC 商業電子郵件詐騙
 Tor路由
+
 誘捕系統
 Honeypot 蜜罐
 Honeywall
 Honeynet
-patch management
 
 
 死結(deadlock)的四個條件是：
