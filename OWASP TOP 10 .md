@@ -1,7 +1,9 @@
 重要
 http://newsletter.ascc.sinica.edu.tw/news/read_news.php?nid=1917
+
 新聞
 https://www.ithome.com.tw/news/118411
+
 次要
 https://leoyeh.me/2017/11/24/%E8%B3%87%E5%AE%89%E7%AE%A1%E7%90%86-OWASP-Top-10-1/
 
