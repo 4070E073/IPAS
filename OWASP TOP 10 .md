@@ -33,7 +33,7 @@ A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
     4.完整插入完成攻擊程序 
    ```
    
-　# 防護建議：
+　#  防護建議：
   ```
    1.使用Prepared Statements，例如Java PreparedStatement()，.NET SqlCommand(), OleDbCommand()，PHP PDO bindParam()
    2.使用Stored Procedures
