@@ -30,11 +30,21 @@ A9-使用已有漏洞的元件 (Using Components with Known Vulnerabilities)
 A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
 ```
 
-# 1.Injection（注入攻擊）
+# A1 - Injection（注入攻擊）
   網站應用程式執行來自外部包括資料庫在內的惡意指令，SQL Injection與Command Injection等攻擊包括在內。
   因為駭客必須猜測管理者所撰寫的方式，因此又稱「駭客的填空遊戲」。
   
-  //詳細解釋在第一個網站
+  舉例來說，原本管理者設計的登入頁面資料庫語法如下： 
+ 
+$str = "SELECT * FROM Users WHERE Username='“.$user."' and 
+Password=‘”.$pass."'“; 
+ 
+　如果說$user以及$pass變數沒有做保護，駭客只要輸入「’ or ‘‘=’」字串，就會變成以下： 
+ 
+$str = “SELECT * FROM Users WHERE Username='' or ''='' and Password= '' or 
+‘’=‘’”; 
+ 
+　如此一來，這個SQL語法就會規避驗證手續，直接顯示資料。
   
   ### 簡述駭客攻擊流程：
    ```
