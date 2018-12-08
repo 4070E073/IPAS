@@ -44,7 +44,7 @@ A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
     4.完整插入完成攻擊程序 
    ```
    
-　### 防護建議：
+### 防護建議：
   ```
    1.使用Prepared Statements，例如Java PreparedStatement()，.NET SqlCommand(), OleDbCommand()，PHP PDO bindParam()
    2.使用Stored Procedures
@@ -61,16 +61,16 @@ A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
 　此為目前受災最廣的攻擊。簡稱XSS攻擊。
  
 ### 攻擊流程如下圖：
-
+```
 1.受害者登入一個網站
 2.從Server端取得Cookie
 3.但是Server端上有著XSS攻擊，使受害者將Cookie回傳至Bad Server
 4.攻擊者從自己架設的Bad Server上取得受害者Cookie
 5.攻擊者取得控制使用受害者的身分
-
+```
 
 ### 防護建議：
-
+```
 / 檢查頁面輸入數值
 輸出頁面做Encoding檢查
 使用白名單機制過濾，而不單只是黑名單
@@ -78,7 +78,7 @@ PHP使用htmlentities過濾字串
 .NET使用Microsoft Anti-XSS Library
 OWASP Cross Site Scripting Prevention Cheat Sheet
 各種XSS攻擊的Pattern參考 
-
+```
 
 
 
