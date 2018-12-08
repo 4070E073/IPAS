@@ -8,16 +8,26 @@ https://www.ithome.com.tw/news/118411
 https://leoyeh.me/2017/11/24/%E8%B3%87%E5%AE%89%E7%AE%A1%E7%90%86-OWASP-Top-10-1/
 
 # 2017 OWASP TOP 10 
-A1-Injection（注入攻擊）
-A2-無效身分認證（Broken Authentication）
-A3-敏感資料外洩（Sensitive Data Exposure）
-A4-XML外部處理器漏洞(XML External Entity，XEE)
-A5-無效的存取控管 (Broken Access Control)
-A6-不安全的組態設定 (Security Misconfiguration)
-A7-跨站攻擊 (Cross-Site Script，XSS)
-A8-不安全的反序列化漏洞 (Insecure Deserialization)
-A9-使用已有漏洞的元件 (Using Components with Known Vulnerabilities)
-A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
+## A1-Injection（注入攻擊）
+
+## A2-無效身分認證（Broken Authentication）
+
+## A3-敏感資料外洩（Sensitive Data Exposure）
+
+## A4-XML外部處理器漏洞(XML External Entity，XEE)
+
+## A5-無效的存取控管 (Broken Access Control)
+
+## A6-不安全的組態設定 (Security Misconfiguration)
+
+## A7-跨站攻擊 (Cross-Site Script，XSS)
+
+## A8-不安全的反序列化漏洞 (Insecure Deserialization)
+
+## A9-使用已有漏洞的元件 (Using Components with Known Vulnerabilities)
+
+## A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
+
 
 1.Injection（注入攻擊）
   網站應用程式執行來自外部包括資料庫在內的惡意指令，SQL Injection與Command Injection等攻擊包括在內。
