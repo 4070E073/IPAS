@@ -81,6 +81,34 @@ A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
 
 
 
+　　A3 – Broken Authentication and Session Management（身分驗證功能缺失） 
+ 
+　網站應用程式中自行撰寫的身分驗證相關功能有缺陷。例如，登入時無加密、SESSION無控管、Cookie未保護、密碼強度過弱等等。
+
+　例如：  
+　應用程式SESSION Timeout沒有設定。使用者在使用公用電腦登入後卻沒有登出，只是關閉視窗。攻擊者在經過一段時間之後使用同一台電腦，卻可以直接登入。 
+ 
+　網站並沒有使用SSL / TLS加密，使用者在使用一般網路或者無線網路時，被攻擊者使用Sniffer竊聽取得User ID、密碼、SESSION ID等，進一步登入該帳號。
+ 
+　這些都是身分驗證功能缺失的例子。 
+ 
+　管理者必須做以下的檢查：
+
+所有的密碼、Session ID、以及其他資訊都有透過加密傳輸嗎？
+憑證都有經過加密或hash保護嗎？
+驗證資訊能被猜測到或被其他弱點修改嗎？
+Session ID是否在URL中暴露出來？
+Session ID是否有Timeout機制？
+
+　防護建議：
+
+使用完善的COOKIE / SESSION保護機制
+不允許外部SESSION
+登入及修改資訊頁面使用SSL加密
+設定完善的Timeout機制
+驗證密碼強度及密碼更換機制 
+
+
 
 
 
