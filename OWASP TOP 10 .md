@@ -70,7 +70,7 @@ A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
 ```
 
 ### 防護建議：
-```
+
 > * 檢查頁面輸入數值
 > 輸出頁面做Encoding檢查
 > 使用白名單機制過濾，而不單只是黑名單
@@ -78,7 +78,7 @@ A10-紀錄與監控不足風險(Insufficient Logging & Monitoring)
 >. NET使用Microsoft Anti-XSS Library
 > OWASP Cross Site Scripting Prevention Cheat Sheet
 > 各種XSS攻擊的Pattern參考 
-```
+
 
 
 
