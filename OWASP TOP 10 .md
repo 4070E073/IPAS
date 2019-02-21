@@ -123,6 +123,7 @@ $str = “SELECT * FROM Users WHERE Username='' or ''='' and Password= '' or
 > * 設定完善的Timeout機制
 > * 驗證密碼強度及密碼更換機制 
 
+# A4 - XML External Entity，XEE (XML 外部處理器漏洞)
 
 
 
