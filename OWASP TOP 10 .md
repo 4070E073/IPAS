@@ -70,7 +70,7 @@ $str = “SELECT * FROM Users WHERE Username='' or ''='' and Password= '' or
 　網站應用程式直接將來自使用者的執行請求送回瀏覽器執行，使得攻擊者可擷取使用者的Cookie或Session資料而能假冒直接登入為合法使用者。  
 　此為目前受災最廣的攻擊。簡稱XSS攻擊。
  
-### 攻擊流程如下圖：
+### 攻擊流程如下：
 ```
 1.受害者登入一個網站
 2.從Server端取得Cookie
