@@ -127,7 +127,9 @@ $str = “SELECT * FROM Users WHERE Username='' or ''='' and Password= '' or
 
 XML 外部處理器漏洞，主要是因為以 XML 為基礎的網路應用程式沒有管控好權限，直接處理 XML 語法的請求或上傳，此時攻擊者僅需要加入一個惡意的 XML 文件，就能夠鎖定 XML 處理器漏洞進行攻擊，進而導致資料外洩的風險。更進一步，目前 XML 訊息主要採用簡單物件存取協定 (Simple Object Access Protocal，SOAP) 簡化網路應用程式訊息傳遞的標準格式，此時若是採用 SOAP 1.2 之前版本的訊息交換格式，則預設皆有 XML 外部處理器漏洞的風險，因此容易遭受到阻斷式服務的攻擊。所以建議採用 SOAP 1.2 版本避免因為 XML 外部處理器漏洞的風險遭受到阻斷式服務的攻擊。
 https://thief.one/2017/06/20/1/
+
 https://itw01.com/V82SUEL.html
+
 https://www.itread01.com/content/1518717376.html
 
 
